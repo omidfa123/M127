@@ -1,0 +1,115 @@
+@font-face {
+  font-family: vazir;
+  src: url("./assets/fonts/Vazirmatn[wght].woff2");
+  font-style: normal;
+  font-weight: 100, 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "vazir";
+  background-image: url("./assets/images/azadi.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body::after {
+  content: "";
+  background-image: url("./assets/images/carve-left.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body::before {
+  content: "";
+  background-image: url("./assets/images/carve-right.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  padding: 20px 100px;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0px auto;
+}
+.header {
+  display: flex;
+  gap: 344px;
+  align-items: center;
+  margin-bottom: 72px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  color: white;
+  font-weight: 300;
+  gap: 74px;
+}
+.nav-list > li {
+  list-style: none;
+}
+.nav-list :first-child {
+  border-bottom: 1px solid white;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.profile-register {
+  color: white;
+}
+.profile-login {
+  font-family: vazir;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #1f1f1f;
+  border-radius: 15px;
+  padding: 6px 12px;
+}
