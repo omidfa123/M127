@@ -65,12 +65,12 @@
         </nav>
       </header>
       <main>
-        <form action="void">
-          <div>
+        <form action="void" class="search-from">
+          <div class="form-field form-field-city">
             <label for="city">شهر</label>
             <input type="text" readonly value="شهر محل سکونت" id="city" />
           </div>
-          <div>
+          <div class="form-field ">
             <label for="building-type">نوع ساختمان</label>
             <input
               type="text"
@@ -79,7 +79,7 @@
               id="building-type"
             />
           </div>
-          <div>
+          <div class="form-field">
             <label for="budget">بودجه</label>
             <input
               type="text"
@@ -88,15 +88,37 @@
               readonly
             />
           </div>
-          <div>
+          <div class="form-field">
             <label for="room"> اتاق</label>
             <input type="text" value="تعداد اتاق ها" readonly id="room" />
           </div>
-          <div>
-            <button>جستجو</button>
+          <div class="submit">
+            <button class="submit-btn">جستجو</button>
           </div>
         </form>
-        <h2>وب سایت مالک برای ثبت آگهی و درخواست ملک با امکانات ویژه است.</h2>
+        <section class="main-content">
+  <div class="drop-down">
+ <ul class="drop-down-list">
+  <li>
+    <img src="./assets/images/city-1.png" alt="city-1">
+    <span>تهران</span>
+  </li>
+  <li>
+    <img src="./assets/images/city-2.png" alt="city-2">
+    <span>اصفهان</span>
+  </li>
+  <li>
+    <img src="./assets/images/city-3.png" alt="city-3">
+    <span>شیراز</span>
+  </li>
+  <li>
+    <img src="./assets/images/city-4.png" alt="city-4">
+    <span>مشهد</span>
+  </li>
+ </ul>
+  </div>
+          <h2 class="description" >وب سایت مالک برای ثبت آگهی و درخواست ملک با امکانات ویژه است.</h2>
+        </section>
       </main>
       <footer>
         <section>
@@ -140,5 +162,6 @@
         </section>
       </footer>
     </div>
+    <div class="test"></div>
   </body>
 </html>
