@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "live-server --port=8080 --no-css-inject",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwindcss": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
   },
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/omidfa123/M127#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.7",
+    "live-server": "^1.2.2",
     "tailwindcss": "^4.1.7"
   }
 }
