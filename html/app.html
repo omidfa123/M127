@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>مالک | مالک سایت آگهی ملک و آژانس های املاک</title>
     <link href="../css/output.css" rel="stylesheet" />
   </head>
   <body class="size-full">
@@ -139,16 +139,17 @@
         </section>
       </header>
       <main class="flex gap-7 flex-1">
-        <section class="w-[500px]">
-          <div class="flex justify-between items-center">
+        <section class="flex-1">
+          <div class="flex justify-between items-center mb-6">
             <div>
               <h6 class="text-[#333333] font-medium text-2xl mb-3">
                 آپارتمان های جردن
               </h6>
-              <span>از تاریخ ۰۶/۲۳ تا ۱۱/۰۵</span>
+              <span class="text-[#6B6F7B] text-[15px]"
+                >از تاریخ ۰۶/۲۳ تا ۱۱/۰۵</span
+              >
             </div>
-            <div>
-              <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+            <div class="flex items-center gap-3">
               <button
                 dir="ltr"
                 id="switch"
@@ -157,15 +158,289 @@
                 role="switch"
                 aria-checked="false"
               >
-                <span class="sr-only">Use setting</span>
-                <!-- Enabled: "translate-x-5", Not Enabled: "translate-x-0" -->
+                <span class="sr-only">اعمال فیلتر</span>
                 <span
                   aria-hidden="true"
                   class="translate-x-0 pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"
                 ></span>
               </button>
+              <div class="text-[#333333] text-[15px]">اعمال فیلتر</div>
             </div>
           </div>
+          <div class="flex items-center justify-between mb-4">
+            <section class="flex items-center gap-3">
+              <button
+                class="flex items-center gap-2 rounded-md border border-[#6B6F7B] py-1 px-2.5 text-[#6B6F7B]"
+              >
+                <svg
+                  width="13"
+                  height="12"
+                  viewBox="0 0 13 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.2831 8.95795H10.6849C10.0277 8.95795 9.91196 8.4857 9.89567 8.24875V6.68763C9.89567 6.03102 9.34052 5.97472 9.17966 5.97204H8.81362V5.97183H7.6301C6.96853 5.97183 6.91306 5.40636 6.90976 5.25891V3.74729C6.90976 3.10223 6.44287 2.99932 6.22468 2.98612H5.84935H4.66687C3.92322 2.98612 3.92364 2.30001 3.92364 2.30001V0.626921C3.91044 0.427915 3.80712 0 3.15689 0H1.6065C1.0066 0 0.941844 0.436988 0.93772 0.596606V11.1837C0.93772 11.1837 0.903074 11.9218 1.70384 11.9218H12.0693C12.7178 11.9218 12.8564 11.5568 12.8814 11.3347V9.75954C12.8814 9.12458 12.5131 8.98352 12.2831 8.95795ZM12.1262 10.6261C12.1223 10.7684 12.0567 11.178 11.4075 11.178H2.40913C1.8913 11.178 1.76406 10.88 1.73807 10.6719V10.4766V9.7748V9.14892V8.78349V7.36405V6.70826V6.32695V5.85408V3.74894V3.62686V1.39387C1.73807 0.853561 2.07463 0.75746 2.25116 0.743643H2.6766C2.80157 0.749211 3.20247 0.822627 3.20247 1.53678V2.57141C3.20433 2.7335 3.26083 3.62273 4.29339 3.62665H5.37174C5.54064 3.63222 6.08589 3.70543 6.08589 4.43134V5.56536C6.10136 5.88336 6.25252 6.70805 7.39748 6.70805H8.23846C8.23846 6.70805 9.01448 6.70372 9.01448 7.5546V8.55396V8.56778C9.01654 8.70265 9.07511 9.78223 10.4409 9.7746H11.3801C11.5312 9.7781 12.1252 9.83028 12.1264 10.4494V10.6261H12.1262Z"
+                    fill="#6B6F7B"
+                  />
+                </svg>
+                <span>طبقه</span>
+              </button>
+              <button
+                class="flex items-center gap-2 rounded-md border border-[#6B6F7B] py-1 px-2.5 text-[#6B6F7B]"
+              >
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.52832 1.25V13.25H7.33688V3.55L0.52832 1.25Z"
+                    stroke="#6B6F7B"
+                    stroke-width="0.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <rect
+                    x="1.63586"
+                    y="4.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                  <rect
+                    x="1.63586"
+                    y="7.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                  <rect
+                    x="1.63586"
+                    y="10.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                  <rect
+                    x="4.58014"
+                    y="4.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                  <rect
+                    x="4.58014"
+                    y="7.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                  <rect
+                    x="4.58014"
+                    y="10.25"
+                    width="1.64917"
+                    height="1.875"
+                    rx="0.1875"
+                    stroke="#6B6F7B"
+                    stroke-width="0.375"
+                  />
+                </svg>
+
+                <span>آپارتمانی</span>
+              </button>
+              <button
+                class="flex items-center gap-2 rounded-md border border-[#6B6F7B] py-1 px-2.5 text-[#6B6F7B]"
+              >
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.9375 1.18183C12.9375 0.805185 12.6323 0.5 12.2557 0.5C12.2131 0.5 8.19862 0.500545 8.19862 0.500545C7.83589 0.500545 7.48871 0.481454 7.28744 0.682729L1.08866 6.88135C0.887114 7.08262 0.887114 7.40935 1.08866 7.61063L5.82699 12.349C6.02827 12.5503 6.35499 12.5503 6.55626 12.349L12.7548 6.15016C12.956 5.94915 12.937 5.61015 12.937 5.23924C12.937 5.23924 12.9375 1.22437 12.9375 1.18183Z"
+                    stroke="#6B6F7B"
+                    stroke-width="0.75"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <span>قیمت</span>
+              </button>
+              <button
+                class="flex items-center gap-2 rounded-md border border-[#6B6F7B] py-1 px-2.5 text-[#6B6F7B]"
+              >
+                <svg
+                  width="14"
+                  height="13"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.49531 12.0141C6.60504 12.0141 7.50465 11.1144 7.50465 10.0047C7.50465 8.89498 6.60504 7.99536 5.49531 7.99536C4.38558 7.99536 3.48596 8.89498 3.48596 10.0047C3.48596 11.1144 4.38558 12.0141 5.49531 12.0141Z"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3.48595 10.0049H0.654175"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.6449 10.0049H7.66357"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.80372 5.00478C8.91345 5.00478 9.81307 4.10516 9.81307 2.99543C9.81307 1.8857 8.91345 0.986084 7.80372 0.986084C6.69399 0.986084 5.79437 1.8857 5.79437 2.99543C5.79437 4.10516 6.69399 5.00478 7.80372 5.00478Z"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.82239 2.99536H12.6542"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M0.654175 2.99536H5.63548"
+                    stroke="#6B6F7B"
+                    stroke-width="0.9"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>بیشتر</span>
+              </button>
+            </section>
+            <section class="flex items-center gap-2">
+              <div>
+                <span> مرتب سازی بر اساس: </span>
+                <span class="text-[#DC3545] font-bold">قیمت </span>
+              </div>
+              <div>
+                <svg
+                  width="49"
+                  height="19"
+                  viewBox="0 0 49 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="36.8125"
+                    y="0.75"
+                    width="11.25"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                  <rect
+                    x="30.0625"
+                    y="0.75"
+                    width="3.75"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                  <rect
+                    x="0.8125"
+                    y="0.75"
+                    width="7.5"
+                    height="7.5"
+                    rx="0.75"
+                    fill="#6B6F7B"
+                  />
+                  <rect
+                    x="11.3125"
+                    y="11.25"
+                    width="7.5"
+                    height="7.5"
+                    rx="0.75"
+                    fill="#6B6F7B"
+                  />
+                  <rect
+                    x="11.3125"
+                    y="0.75"
+                    width="7.5"
+                    height="7.5"
+                    rx="0.75"
+                    fill="#6B6F7B"
+                  />
+                  <rect
+                    x="0.8125"
+                    y="11.25"
+                    width="7.5"
+                    height="7.5"
+                    rx="0.75"
+                    fill="#6B6F7B"
+                  />
+                  <rect
+                    x="36.8125"
+                    y="7.5"
+                    width="11.25"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                  <rect
+                    x="30.0625"
+                    y="7.5"
+                    width="3.75"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                  <rect
+                    x="36.8125"
+                    y="14.25"
+                    width="11.25"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                  <rect
+                    x="30.0625"
+                    y="14.25"
+                    width="3.75"
+                    height="3.75"
+                    rx="0.75"
+                    fill="#DC3545"
+                  />
+                </svg>
+              </div>
+            </section>
+          </div>
+          <div id="card-container" class="h-[760px] overflow-auto"></div>
         </section>
         <section>
           <img src="../assets/images/Map.jpg" alt="" width="800px" />
